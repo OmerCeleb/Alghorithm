@@ -1,0 +1,8 @@
+Time Complexity = O(n^2)
+
+Memory Usage : O(1) --> 1 tane temop degisken kullaniliyor
+
+Trick; Elimde kucuk bir dizi varsa iyi, ama buyuk  bir dizi varsa o zaman yavas kaliyor.
+
+Islem buyukse eger BubleSort tan uzak durulmalidir.
+

@@ -1,0 +1,9 @@
+Mantik: Verilen bir dizinin herhangi bir eyrinden bir pivot eleman secer ve
+pivottan buyuk elemanlari ssaga kucuk eleamanlari sola kaydirir.
+Bu islemi yaptiktan sonra, pivot elemanin solundaki ve sagindaki dizilerden ayri
+ayri pivot eleman secilir ve  o dizileri kendi icerisinde tekrar ayni isleme tabi
+tutar. Bu sekilde Rekursiv bir yapi da calisarak diziyi tamamen sirali hale
+getirir.
+
+Time Complexity: en kötu 0(n^2) // ortalama 0(nlogn)
+Memory Usage: En kötu durum 0(n) --> recursive
